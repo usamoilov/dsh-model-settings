@@ -4,6 +4,8 @@ The **Default model** section of DSH Web settings: one default model for every D
 profile, a switch that turns DeepSeek off, the `web_search` provider and the subagent
 model. Overview, install and configuration: [repository README](../../README.md).
 
+<img src="../../docs/screenshot-en.png" width="564" alt="The Default model page">
+
 ## What a save changes
 
 Only the parts changed on the page are sent and written. Toggling DeepSeek alone does

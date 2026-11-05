@@ -24,6 +24,8 @@ DSH has no single "default model" setting:
 
 ## The settings page
 
+<img src="docs/screenshot-en.png" width="564" alt="The Default model page in DSH Web settings: default model, where to apply it, DeepSeek switch, web search provider and subagent model">
+
 Settings → **Default model**:
 
 * **Model** and **reasoning effort**, from the live DSH model catalog — every provider set up in Settings → Models.
