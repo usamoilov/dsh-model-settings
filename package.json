@@ -1,0 +1,14 @@
+{
+  "name": "dsh-model-settings",
+  "private": true,
+  "description": "DSH plugins: one settings page for the default model, DeepSeek off switch, web search and subagent models",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usamoilov/dsh-model-settings.git"
+  },
+  "scripts": {
+    "test": "cd packages/dsh-model-defaults && node test/unit.test.mjs && node test/modules.test.mjs && node test/client.test.mjs && cd ../dsh-web-search-extra && node test/unit.test.mjs",
+    "test:live": "cd packages/dsh-model-defaults && node test/live.test.mjs && cd ../dsh-web-search-extra && node test/live.test.mjs"
+  }
+}

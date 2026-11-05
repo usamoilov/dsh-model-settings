@@ -1,0 +1,13 @@
+# Mounted automatically through package.json `dsh.bundle.patch` when the
+# package is added with `dsh plugin add`. When installed by hand, add this row
+# to $DSH_HOME/profiles/web/cordis.patch.yml:
+#
+# - insert:
+#     - id: model-defaults
+#       name: 'dsh-model-defaults'
+#
+# Optional config (a `- id: model-defaults` row with `config:` in the profile):
+# profiles, webUnit, overlays, searxngURL — see README.md.
+- insert:
+    - id: model-defaults
+      name: 'dsh-model-defaults'
