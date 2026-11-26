@@ -1,0 +1,13 @@
+# Mounted through package.json `dsh.bundle.patch` by `dsh plugin add`.
+# Registers the search providers searxng, claude-code and auto; the `web` row decides which one web_search uses:
+#
+# - id: web
+#   config:
+#     searchProvider: searxng        # or claude-code / auto / deepseek-official
+#     fetchProvider: http            # a profile row replaces the whole base config
+#
+# Optional config of this row: searxngURL, summary, summaryModel, claudeModel,
+# autoOrder, timeoutMs, summaryTimeoutMs, concurrency (see README.md).
+- insert:
+    - id: web-search-extra
+      name: 'dsh-web-search-extra'

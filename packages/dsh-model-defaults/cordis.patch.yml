@@ -1,0 +1,18 @@
+# Mounted automatically through package.json `dsh.bundle.patch` when the
+# package is added with `dsh plugin add`. When installed by hand, add these rows
+# to $DSH_HOME/profiles/web/cordis.patch.yml:
+#
+# - insert:
+#     - id: model-defaults
+#       name: 'dsh-model-defaults'
+#     - id: model-defaults-guard
+#       name: 'dsh-model-defaults/guard'
+#
+# Other profiles (e.g. headless) need only the guard row — see README.md.
+# Optional config (a `- id: model-defaults` row with `config:` in the profile):
+# profiles, webUnit, overlays, searxngURL; guard row: fallbackMinutes — see README.md.
+- insert:
+    - id: model-defaults
+      name: 'dsh-model-defaults'
+    - id: model-defaults-guard
+      name: 'dsh-model-defaults/guard'
